@@ -4,9 +4,11 @@ def new_hash
 end
 
 def my_hash
-  {
-
+  hash = {
+    tv_brand: "Panasonic",
+    tv_model: "HZ2000"
   }
+  return hash
 end
 
 def pioneer
